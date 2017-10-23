@@ -1,5 +1,24 @@
-import java.util.*
-import java.lang.*
+/*
+Kotlin es un lenguaje de programación que corre en la Maquina Virtual de Java (JVM) y
+ ha sido desarrollado por JetBrains. Kotlin es interoperable con código Java. 
+ Kotlin se puede utlizar donde Java lo es hoy en dia.
+
+Para correr ejemplos en Kotlin puedes hacerlo en linea sobre esta pagina https://try.kotl.in/.
+
+El primer objetivo de Kotlin es proveer mas claridad, productividad y una alternativa a 
+Java en todos los contextos en los que este se aplica hoy en dia. Kotlin puede ayudar a 
+lograr los mismos objetivos de Java pero con menos codigo.
+
+Las areas mas comunes de Kotlin
+Construir server-side code (tipicamente, backends de aplicaciones web)
+Construir aplicaciones mobiles que pueden correr en dispositivos Android.
+
+Kotlin tambien puede ser compilado a JavaScript, permitiendo correr Kotlin en el navegador.
+
+En kotlin no es necesario definir tipo de variable ya que este se 
+determina automaticamente según el contexto. La abilidad para determinar esto por el 
+lenguaje se conoce como “type inference”
+*/
 
 //Ejercicios de "Kotlin Language Documentation"
 fun main(args: Array<String>) {
