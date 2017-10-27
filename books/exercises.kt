@@ -86,6 +86,38 @@ fun main(args: Array<String>) {
     if (x in 1..y+1) {
         println("Esta en el rango")
     }
+
+    //**********************
+    //Arreglos
+    //**********************
+    
+    val arr = arrayOf(1, 2, 3);
+    for (item in arr) {
+        println(item);
+    }
+
+    //*********************
+    //Strings
+    //*********************
+
+    val s = "Hello, world!\n"
+    println(s)
+
+    val text = """
+    for (c in "foo"){
+        print(c)
+    }
+    """
+    println(text)
+
+    val text2 = """
+        |Tell me and I forget.
+        |Teach me and I remember.
+        |Involve me and I learn.
+        |(Benjamin Franklin)
+        """.trimMargin()
+    println(text2)
+
 }
 
 class Exercise{
